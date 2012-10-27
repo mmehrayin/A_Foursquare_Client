@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B915A25F163C39CA0093EB1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A25E163C39CA0093EB1F /* UIKit.framework */; };
+		B915A261163C39CA0093EB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A260163C39CA0093EB1F /* Foundation.framework */; };
+		B915A263163C39CA0093EB1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A262163C39CA0093EB1F /* CoreGraphics.framework */; };
+		B915A269163C39CA0093EB1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B915A267163C39CA0093EB1F /* InfoPlist.strings */; };
+		B915A26B163C39CA0093EB1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B915A26A163C39CA0093EB1F /* main.m */; };
+		B915A26F163C39CA0093EB1F /* gnshkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B915A26E163C39CA0093EB1F /* gnshkAppDelegate.m */; };
+		B915A271163C39CA0093EB1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B915A270163C39CA0093EB1F /* Default.png */; };
+		B915A273163C39CA0093EB1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B915A272163C39CA0093EB1F /* Default@2x.png */; };
+		B915A275163C39CA0093EB1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B915A274163C39CA0093EB1F /* Default-568h@2x.png */; };
+		B915A27D163C39CA0093EB1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A27C163C39CA0093EB1F /* SenTestingKit.framework */; };
+		B915A27E163C39CA0093EB1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A25E163C39CA0093EB1F /* UIKit.framework */; };
+		B915A27F163C39CA0093EB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B915A260163C39CA0093EB1F /* Foundation.framework */; };
+		B915A287163C39CA0093EB1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B915A285163C39CA0093EB1F /* InfoPlist.strings */; };
+		B915A28A163C39CA0093EB1F /* GoonjishkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B915A289163C39CA0093EB1F /* GoonjishkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B915A280163C39CA0093EB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B915A251163C39CA0093EB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B915A259163C39CA0093EB1F;
+			remoteInfo = Goonjishk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B915A25A163C39CA0093EB1F /* Goonjishk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goonjishk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B915A25E163C39CA0093EB1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B915A260163C39CA0093EB1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B915A262163C39CA0093EB1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B915A266163C39CA0093EB1F /* Goonjishk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Goonjishk-Info.plist"; sourceTree = "<group>"; };
+		B915A268163C39CA0093EB1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B915A26A163C39CA0093EB1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B915A26C163C39CA0093EB1F /* Goonjishk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Goonjishk-Prefix.pch"; sourceTree = "<group>"; };
+		B915A26D163C39CA0093EB1F /* gnshkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gnshkAppDelegate.h; sourceTree = "<group>"; };
+		B915A26E163C39CA0093EB1F /* gnshkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gnshkAppDelegate.m; sourceTree = "<group>"; };
+		B915A270163C39CA0093EB1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B915A272163C39CA0093EB1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B915A274163C39CA0093EB1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B915A27B163C39CA0093EB1F /* GoonjishkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoonjishkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B915A27C163C39CA0093EB1F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B915A284163C39CA0093EB1F /* GoonjishkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoonjishkTests-Info.plist"; sourceTree = "<group>"; };
+		B915A286163C39CA0093EB1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B915A288163C39CA0093EB1F /* GoonjishkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoonjishkTests.h; sourceTree = "<group>"; };
+		B915A289163C39CA0093EB1F /* GoonjishkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoonjishkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B915A257163C39CA0093EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A25F163C39CA0093EB1F /* UIKit.framework in Frameworks */,
+				B915A261163C39CA0093EB1F /* Foundation.framework in Frameworks */,
+				B915A263163C39CA0093EB1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A277163C39CA0093EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A27D163C39CA0093EB1F /* SenTestingKit.framework in Frameworks */,
+				B915A27E163C39CA0093EB1F /* UIKit.framework in Frameworks */,
+				B915A27F163C39CA0093EB1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B915A24F163C39CA0093EB1F = {
+			isa = PBXGroup;
+			children = (
+				B915A264163C39CA0093EB1F /* Goonjishk */,
+				B915A282163C39CA0093EB1F /* GoonjishkTests */,
+				B915A25D163C39CA0093EB1F /* Frameworks */,
+				B915A25B163C39CA0093EB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B915A25B163C39CA0093EB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B915A25A163C39CA0093EB1F /* Goonjishk.app */,
+				B915A27B163C39CA0093EB1F /* GoonjishkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B915A25D163C39CA0093EB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B915A25E163C39CA0093EB1F /* UIKit.framework */,
+				B915A260163C39CA0093EB1F /* Foundation.framework */,
+				B915A262163C39CA0093EB1F /* CoreGraphics.framework */,
+				B915A27C163C39CA0093EB1F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B915A264163C39CA0093EB1F /* Goonjishk */ = {
+			isa = PBXGroup;
+			children = (
+				B915A26D163C39CA0093EB1F /* gnshkAppDelegate.h */,
+				B915A26E163C39CA0093EB1F /* gnshkAppDelegate.m */,
+				B915A265163C39CA0093EB1F /* Supporting Files */,
+			);
+			path = Goonjishk;
+			sourceTree = "<group>";
+		};
+		B915A265163C39CA0093EB1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B915A266163C39CA0093EB1F /* Goonjishk-Info.plist */,
+				B915A267163C39CA0093EB1F /* InfoPlist.strings */,
+				B915A26A163C39CA0093EB1F /* main.m */,
+				B915A26C163C39CA0093EB1F /* Goonjishk-Prefix.pch */,
+				B915A270163C39CA0093EB1F /* Default.png */,
+				B915A272163C39CA0093EB1F /* Default@2x.png */,
+				B915A274163C39CA0093EB1F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B915A282163C39CA0093EB1F /* GoonjishkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B915A288163C39CA0093EB1F /* GoonjishkTests.h */,
+				B915A289163C39CA0093EB1F /* GoonjishkTests.m */,
+				B915A283163C39CA0093EB1F /* Supporting Files */,
+			);
+			path = GoonjishkTests;
+			sourceTree = "<group>";
+		};
+		B915A283163C39CA0093EB1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B915A284163C39CA0093EB1F /* GoonjishkTests-Info.plist */,
+				B915A285163C39CA0093EB1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B915A259163C39CA0093EB1F /* Goonjishk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915A28D163C39CA0093EB1F /* Build configuration list for PBXNativeTarget "Goonjishk" */;
+			buildPhases = (
+				B915A256163C39CA0093EB1F /* Sources */,
+				B915A257163C39CA0093EB1F /* Frameworks */,
+				B915A258163C39CA0093EB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goonjishk;
+			productName = Goonjishk;
+			productReference = B915A25A163C39CA0093EB1F /* Goonjishk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B915A27A163C39CA0093EB1F /* GoonjishkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915A290163C39CA0093EB1F /* Build configuration list for PBXNativeTarget "GoonjishkTests" */;
+			buildPhases = (
+				B915A276163C39CA0093EB1F /* Sources */,
+				B915A277163C39CA0093EB1F /* Frameworks */,
+				B915A278163C39CA0093EB1F /* Resources */,
+				B915A279163C39CA0093EB1F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B915A281163C39CA0093EB1F /* PBXTargetDependency */,
+			);
+			name = GoonjishkTests;
+			productName = GoonjishkTests;
+			productReference = B915A27B163C39CA0093EB1F /* GoonjishkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B915A251163C39CA0093EB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gnshk;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Goonjishk;
+			};
+			buildConfigurationList = B915A254163C39CA0093EB1F /* Build configuration list for PBXProject "Goonjishk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B915A24F163C39CA0093EB1F;
+			productRefGroup = B915A25B163C39CA0093EB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B915A259163C39CA0093EB1F /* Goonjishk */,
+				B915A27A163C39CA0093EB1F /* GoonjishkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B915A258163C39CA0093EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A269163C39CA0093EB1F /* InfoPlist.strings in Resources */,
+				B915A271163C39CA0093EB1F /* Default.png in Resources */,
+				B915A273163C39CA0093EB1F /* Default@2x.png in Resources */,
+				B915A275163C39CA0093EB1F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A278163C39CA0093EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A287163C39CA0093EB1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B915A279163C39CA0093EB1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B915A256163C39CA0093EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A26B163C39CA0093EB1F /* main.m in Sources */,
+				B915A26F163C39CA0093EB1F /* gnshkAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A276163C39CA0093EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A28A163C39CA0093EB1F /* GoonjishkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B915A281163C39CA0093EB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B915A259163C39CA0093EB1F /* Goonjishk */;
+			targetProxy = B915A280163C39CA0093EB1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B915A267163C39CA0093EB1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B915A268163C39CA0093EB1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B915A285163C39CA0093EB1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B915A286163C39CA0093EB1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B915A28B163C39CA0093EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B915A28C163C39CA0093EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B915A28E163C39CA0093EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goonjishk/Goonjishk-Prefix.pch";
+				INFOPLIST_FILE = "Goonjishk/Goonjishk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B915A28F163C39CA0093EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goonjishk/Goonjishk-Prefix.pch";
+				INFOPLIST_FILE = "Goonjishk/Goonjishk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B915A291163C39CA0093EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Goonjishk.app/Goonjishk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goonjishk/Goonjishk-Prefix.pch";
+				INFOPLIST_FILE = "GoonjishkTests/GoonjishkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B915A292163C39CA0093EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Goonjishk.app/Goonjishk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goonjishk/Goonjishk-Prefix.pch";
+				INFOPLIST_FILE = "GoonjishkTests/GoonjishkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B915A254163C39CA0093EB1F /* Build configuration list for PBXProject "Goonjishk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A28B163C39CA0093EB1F /* Debug */,
+				B915A28C163C39CA0093EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B915A28D163C39CA0093EB1F /* Build configuration list for PBXNativeTarget "Goonjishk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A28E163C39CA0093EB1F /* Debug */,
+				B915A28F163C39CA0093EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B915A290163C39CA0093EB1F /* Build configuration list for PBXNativeTarget "GoonjishkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A291163C39CA0093EB1F /* Debug */,
+				B915A292163C39CA0093EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B915A251163C39CA0093EB1F /* Project object */;
+}
