@@ -1,15 +1,17 @@
 //
 //  gnshkAppDelegate.h
 //  Goonjishk
-//
-//  Created by Mahshid on 10/27/12.
-//  Copyright (c) 2012 Goonjishk. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
+#import "gnshkMainViewController.h"
 
-@interface gnshkAppDelegate : UIResponder <UIApplicationDelegate>
+@interface gnshkAppDelegate : UIResponder <UIApplicationDelegate> {
+    
+    UIWindow *window;
+    
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic,retain) IBOutlet UIWindow *window;
 
 @end

@@ -1,0 +1,64 @@
+***** Final Project - 12/03/12
+
+New Features in this release:
+
+- Added the friends tab, that shows the list of foursquare friends, their home city and thumbnail image of the user
+- Added detail friends info page
+-Added ability to send email to the user if user has provided the email to foursquare
+-Added ability to go to Facebook or Twitter page of the friend, if friend has provided this info to foursquare
+-Added the ability to see the mayorships and tips of the friends
+
+Changes and Bug fixes in this release:
+
+- Fixed the aspect ratio problem of the pictures
+- Fixed check-in crash problem
+- Removed detailed disclosure icons
+- Tested the program on actual device and fixed camera functionality errors
+
+ 
+Known issues:
+
+
+- Application may not be able to handle extreme situations when there is no nearby place returned from foursquare
+
+
+***** Phase 2 - 11/15/12
+
+New Features in this release:
+
+- Map View in Nearby view controller
+- Pin locations to map view and update the map view when user starts scrolling
+- Search functionality
+- Show the picture of the place in checkin view
+- Enable the user to get to google maps and get directions with one click
+- Enable use to check in to the place
+- User can now add message and photo (from library or camera) to checkin
+- User can select to post the checkin to facebook and twitter
+
+Changes and bug fixes in this release:
+
+- Completely rewrote the nearby places view and moved all core functionality to sessionhandler class.
+
+
+known issues and untested features:
+
+- Application may not be able to handle extreme situations when there is no nearby place returned from foursquare
+- The camera functionality needs to be tested on device and it has not been tested
+
+
+Other info:
+
+- All the classes that their name starts with gnshk are original code and the all the code in those classes are my code
+- All classes that start with BZ are from foursquare. I had some contribution to those codes. Please refer to comments on top of the class code for more details about the changes that I made
+
+
+
+
+
+
+***** Phase1 - 10/30/12
+
+- Initial Release
+- Updated BZFoursquare library to save token in SQLlite database. Before user had to login to foursquare and authorize app everytime that he/she wants to use the app. This new feature saves the token and user doesn't need to login everytime
+
+- Created the nearby places tab

@@ -7,17 +7,35 @@
 //
 
 #import "gnshkAppDelegate.h"
+#import "gnshkSessionHandler.h"
+#import "gnshkMainViewController.h"
+
 
 @implementation gnshkAppDelegate
 
+@synthesize window;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //sleep(2);
+    
+    
     return YES;
 }
+
+//Once user authorizes the app in Safari below method gets called. The method calls handleOpenURL and redirects the user to MainViewController
+
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    BZFoursquare *foursquare = [[gnshkSessionHandler sharedFoursquare] foursquare];
+    gnshkMainViewController *vwMainViewController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"mainViewController"];
+     self.window.rootViewController = vwMainViewController;
+    [self.window makeKeyAndVisible];
+    
+    return [foursquare handleOpenURL:url];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
